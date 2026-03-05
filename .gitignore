@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Runtime artifacts
+logs/
+.run/
+*.log
+
+# Virtual envs
+.venv/
+venv/
+
+# Temp audio
+*.wav
+*.pcm

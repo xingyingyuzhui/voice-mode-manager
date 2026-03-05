@@ -1,0 +1,7 @@
+funasr
+torch
+torchaudio
+websockets
+numpy
+sounddevice
+pyyaml
