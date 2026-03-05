@@ -183,14 +183,39 @@ bash ~/.openclaw/workspace/skills/voice-mode-manager/scripts/voice_mode_stop.sh
 - 确认 `VOICE_MLX_TTS_PY` 可执行
 - 检查模型是否已拉取完成
 
-## 11. 致谢
+## 11. 开源依赖与感谢
 
-本项目基于以下开源生态构建，感谢社区：
+本项目站在以下开源项目之上。感谢所有维护者和贡献者。
 
-- OpenClaw
-- FunASR
-- MLX Audio
-- Qwen TTS 模型社区贡献者
+1. OpenClaw（对话 Agent 框架与 CLI）
+- 项目地址: <https://github.com/openclaw/openclaw>
+- 许可证: Apache-2.0
+
+2. FunASR（实时语音识别链路与 runtime 生态）
+- 项目地址: <https://github.com/modelscope/FunASR>
+- runtime 文档: <https://github.com/modelscope/FunASR/tree/main/runtime>
+- 许可证: MIT
+
+3. MLX Audio（本地 TTS 推理库）
+- 项目地址: <https://github.com/Blaizzy/mlx-audio>
+- 许可证: Apache-2.0
+
+4. Hugging Face Transformers（Tokenizer/模型加载生态）
+- 项目地址: <https://github.com/huggingface/transformers>
+- 许可证: Apache-2.0
+
+5. websockets（ASR runtime WebSocket 客户端）
+- 项目地址: <https://github.com/python-websockets/websockets>
+- 许可证: BSD-3-Clause
+
+6. sounddevice / PortAudio（麦克风采集与音频播放）
+- sounddevice: <https://github.com/spatialaudio/python-sounddevice>（MIT）
+- PortAudio: <http://www.portaudio.com/>（MIT-like）
+
+7. Qwen3-TTS MLX 社区模型（默认语音模型）
+- 模型地址: <https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-4bit>
+
+再次感谢以上项目和社区，让本 Skill 能以较低门槛实现本地实时语音对话。
 
 ## 12. 许可证
 
